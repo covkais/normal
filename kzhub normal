@@ -67,3 +67,5 @@ if not isWhitelisted(player) then
     })
     return -- Exit the script if the player is not whitelisted
 end
+
+local MainTab = Window:CreateTab("Main", 4483362458) -- Title, Image
