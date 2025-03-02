@@ -1,2 +1,25 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/s2shubowner/Bypasser/refs/heads/main/bypass"))()
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+-- Whitelist of usernames 
+local whitelist = {
+    "Kaisfrms2hub",  
+    "Player"
+    "Player", 
+    "Player",
+    "Player",
+    "Player",
+    "Player",
+    "Player",
+}
+
+-- Function to check if a player is whitelisted (case-insensitive)
+local function isWhitelisted(player)
+    for _, username in ipairs(whitelist) do
+        if player.Name:lower() == username:lower() then
+            return true
+        end
+    end
+    return false
+end
+
